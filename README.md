@@ -1,11 +1,11 @@
-# 🚀 Crypto Keyword Clustering System
+#  Crypto Keyword Clustering System
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 
 An BERT-based keyword clustering system specialized for cryptocurrency SEO, capable of processing 130,000+ keywords with hierarchical topic modeling.
 
-## ✨ Features
+## Features
 
 - **Hierarchical Clustering**: 4-level taxonomy (Pillar → Primary → Secondary → Subtopic)
 - **BERT Embeddings**: State-of-the-art sentence transformers for semantic understanding
@@ -14,7 +14,7 @@ An BERT-based keyword clustering system specialized for cryptocurrency SEO, capa
 - **Scalable**: Processes 130k+ keywords in ~26 minutes
 - **SEO-Optimized**: Built for search engine keyword taxonomy
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -40,7 +40,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 \`\`\`
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Basic Usage
 
@@ -70,7 +70,7 @@ engine = CryptoClusteringEngine()
 result = engine.create_hierarchical_clusters(df)
 \`\`\`
 
-## 📊 Output Structure
+## Output Structure
 
 The system generates an Excel file with multiple sheets:
 
@@ -89,26 +89,26 @@ The system generates an Excel file with multiple sheets:
 - `search_volume`, `competition`, `cpc`: SEO metrics
 - Various crypto-specific features
 
-## 🏗️ Architecture
+## Architecture
 
 - **BERT Embeddings**: `sentence-transformers/all-mpnet-base-v2`
 - **Dimension Reduction**: PCA (776d → 100d) → UMAP (100d → 75d)
 - **Clustering**: HDBSCAN with K-Means fallback
 - **Validation**: Multi-stage cluster refinement
 
-## 📈 Performance
+## Performance
 
 - **Processing Time**: ~26 minutes for 130k keywords
 - **Memory Usage**: 2.5GB peak
 - **Accuracy**: >90% relevant keyword retention
 
-## 📚 Documentation
+## Documentation
 
 - [Technical Documentation v1](docs/technical_docs_v1.md)
 - [Technical Documentation v2](docs/technical_docs_v2.md)
 - [API Reference](docs/api_reference.md)
 
-## 🧪 Testing
+## Testing
 
 Run tests with pytest:
 
@@ -116,7 +116,7 @@ Run tests with pytest:
 pytest tests/
 \`\`\`
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -128,12 +128,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Sentence Transformers for BERT models
 - HDBSCAN for clustering algorithms
 - UMAP for dimension reduction
 
-## 📧 Contact
+## Contact
 
-Your Name - Mohammed Abushan email@giottusabu@gmail.com
+Mohammed Abushan email@giottusabu@gmail.com
