@@ -104,10 +104,8 @@ The system generates an Excel file with multiple sheets:
 
 ## Documentation
 
-- [Technical Documentation v1](docs/technical_docs_v1.md)
-- [Technical Documentation v2](docs/technical_docs_v2.md)
-- [API Reference](docs/api_reference.md)
 
+https://docs.google.com/document/d/1gtgU58ZzfXGYsbtq7UwmaSOnXETX6wFqnaBuarlZfi0/edit?usp=sharing
 ## Testing
 
 Run tests with pytest:
