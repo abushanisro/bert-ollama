@@ -1,6 +1,6 @@
 #  Crypto Keyword Clustering System
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 
 An BERT-based keyword clustering system specialized for cryptocurrency SEO, capable of processing 130,000+ keywords with hierarchical topic modeling.
@@ -26,7 +26,7 @@ An BERT-based keyword clustering system specialized for cryptocurrency SEO, capa
 1. Clone the repository:
 \`\`\`bash
 git clone  https://github.com/abushanisro/bert-Lama
-cd crypto-keyword-clustering
+cd 
 \`\`\`
 
 2. Create virtual environment:
@@ -42,33 +42,6 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-### Basic Usage
-
-\`\`\`python
-from src.crypto_clustering_v2 import run_crypto_clustering_pipeline
-
-# Run the complete pipeline
-result = run_crypto_clustering_pipeline()
-\`\`\`
-
-### Custom Configuration
-
-\`\`\`python
-from src.crypto_clustering_v2 import CryptoConfig, CryptoKeywordProcessor, CryptoClusteringEngine
-
-# Configure settings
-CryptoConfig.INPUT_FILE = 'your_keywords.csv'
-CryptoConfig.PILLAR_CLUSTERS = 15
-CryptoConfig.MIN_CLUSTER_SIZE = 10
-
-# Process keywords
-processor = CryptoKeywordProcessor()
-df = processor.load_and_process_keywords(CryptoConfig.INPUT_FILE)
-
-# Create clusters
-engine = CryptoClusteringEngine()
-result = engine.create_hierarchical_clusters(df)
-\`\`\`
 
 ## Output Structure
 
@@ -106,27 +79,9 @@ The system generates an Excel file with multiple sheets:
 
 
 https://docs.google.com/document/d/1gtgU58ZzfXGYsbtq7UwmaSOnXETX6wFqnaBuarlZfi0/edit?usp=sharing
-## Testing
-
-Run tests with pytest:
-
-\`\`\`bash
-pytest tests/
-\`\`\`
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
-
-## Acknowledgments
+# Acknowledgments
 
 - Sentence Transformers for BERT models
 - HDBSCAN for clustering algorithms
