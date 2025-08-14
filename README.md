@@ -25,7 +25,7 @@ An BERT-based keyword clustering system specialized for cryptocurrency SEO, capa
 
 1. Clone the repository:
 \`\`\`bash
-git clone https://github.com/yourusername/crypto-keyword-clustering.git
+git clone  https://github.com/abushanisro/bert-Lama
 cd crypto-keyword-clustering
 \`\`\`
 
