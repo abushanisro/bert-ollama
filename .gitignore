@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data files (sensitive/large)
+data/input/
+data/output/
+data/cache/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.model
+*.ckpt
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache
+cache/
+crypto_cache/
+cache_exact/
+*.cache
+
+# Output files
+output/
+results/
+exports/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Configuration with sensitive data
+config.local.py
+secrets.py
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Test coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
