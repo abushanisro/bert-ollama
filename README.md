@@ -7,7 +7,7 @@ An BERT-based keyword clustering system specialized for cryptocurrency SEO, capa
 
 ## Features
 
-- **Hierarchical Clustering**: 4-level taxonomy (Pillar → Primary → Secondary → Subtopic)
+- **Hierarchical Clustering**: 2-level taxonomy (Pillar →topic)
 - **BERT Embeddings**: State-of-the-art sentence transformers for semantic understanding
 - **Crypto-Specific**: 200+ validated crypto terms and patterns
 - **Ultra-Accurate**: HDBSCAN clustering with validation and refinement
