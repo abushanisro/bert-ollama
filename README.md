@@ -6,7 +6,7 @@
 An BERT-based keyword clustering system specialized for cryptocurrency SEO, capable of processing 130,000+ keywords with hierarchical topic modeling.
 
 ## Features
-
+Hybrid BERT + Local Llama Clustering System
 - **Hierarchical Clustering**: 2-level taxonomy (Pillar →topic)
 - **BERT Embeddings**: State-of-the-art sentence transformers for semantic understanding
 - **Crypto-Specific**: 200+ validated crypto terms and patterns
