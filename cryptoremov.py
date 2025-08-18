@@ -42,7 +42,7 @@ class Config:
     """Configuration for processing 200k keywords"""
     
     # File paths
-    INPUT_FILE = '/home/admin1/Downloads/demo_crypto/csv list keywords.csv'
+    INPUT_FILE = '/home/admin1/Downloads/demo_crypto/FInal list of crypto terms.xlsx'
     OUTPUT_DIR = '/home/admin1/Downloads/demo_crypto/output'
     OUTPUT_FILE = f'{OUTPUT_DIR}/crypto_clusters_2lakh_clean.xlsx'
     REMOVED_KEYWORDS_FILE = f'{OUTPUT_DIR}/removed_keywords.csv'

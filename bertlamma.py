@@ -1,3 +1,10 @@
+"""
+Hybrid BERT + Local Llama Clustering System
+Uses BERT for embeddings and LOCAL Llama for intelligent naming
+FREE - No API costs, runs completely offline
+Optimized for 90,000 keywords
+"""
+
 import os
 import gc
 import time
@@ -40,7 +47,7 @@ class Config:
     """Configuration for hybrid clustering with local Llama"""
     
     # File paths - UPDATE THESE
-    INPUT_FILE = '/home/admin1/Downloads/demo_crypto/csv list keywords.csv'
+    INPUT_FILE = '/home/admin1/Downloads/demo_crypto/FInal list of crypto terms.xlsx'
     OUTPUT_DIR = '/home/admin1/Downloads/demo_crypto/output'
     OUTPUT_FILE = f'{OUTPUT_DIR}/llama_clusters_90k.xlsx'
     
@@ -896,8 +903,3 @@ if __name__ == "__main__":
     clustered_data = run_llama_clustering()
 
     """
-Hybrid BERT + Local Llama Clustering System
-Uses BERT for embeddings and LOCAL Llama for intelligent naming
-FREE - No API costs, runs completely offline
-Optimized for 90,000 keywords
-"""
