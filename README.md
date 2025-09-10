@@ -5,6 +5,7 @@
 
 
 An BERT-based keyword clustering system specialized for cryptocurrency SEO, capable of processing 130,000+ keywords with hierarchical topic modeling.
+![image alt](https://github.com/abushanisro/bert-ollama/blob/main/Screenshot%20from%202025-09-10%2011-16-13.png?raw=true)
 
 ## Features
 Hybrid BERT + Local Llama Clustering System
